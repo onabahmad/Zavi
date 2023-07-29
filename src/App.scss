@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+$body-bg-image: url("./assets/img.jpg");
+$body-bg-color: rgba(0, 0, 0, 0.8);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: $body-bg-image;
+  background-color: $body-bg-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+
+  @media only screen and (max-width: 600px) {
+    height: 230vh;
+  }
+
+  @media only screen and (min-width: 600px) {
+    height: 230vh;
+  }
+
+  @media only screen and (min-width: 768px) {
+    height: 150vh;
+  }
+}

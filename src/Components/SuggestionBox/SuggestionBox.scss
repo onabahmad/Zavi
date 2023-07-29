@@ -1,0 +1,26 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.trend-suggestion-container {
+  margin-bottom: 20px;
+}
+
+.suggestion-box {
+  position: relative;
+  top: 10rem;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
