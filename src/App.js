@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.scss";
-import Home from "./Components/Home/Home.jsx";
+
+import Main from "./Components/Home/Main.jsx";
 
 const App = () => {
   return (
     <div>
-      <Home />
+      <Main />
     </div>
   );
 };
